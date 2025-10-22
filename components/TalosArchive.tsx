@@ -172,6 +172,27 @@ export default function TalosArchive() {
             </div>
           </section>
 
+          {/* Chat Interface Link */}
+          <section className="border-2 border-green-400 p-8 rounded-lg bg-green-950 bg-opacity-10">
+            <h2 className="text-3xl font-bold text-green-400 mb-4 text-center">
+              💬 Talk to Talos
+            </h2>
+            <p className="text-gray-300 text-center mb-6">
+              Experience real-time hub navigation and semantic understanding.
+            </p>
+            <div className="flex justify-center">
+              <a
+                href="/chat"
+                className="px-8 py-4 bg-orange-600 hover:bg-orange-700 text-white font-bold rounded-lg text-lg transition transform hover:scale-105"
+              >
+                🔥 Open Chat Interface
+              </a>
+            </div>
+            <p className="text-xs text-gray-500 text-center mt-4">
+              Requires trained model. See TRAINING.md for setup.
+            </p>
+          </section>
+
           {/* Contact */}
           <footer className="text-center text-gray-500 text-sm pt-8 border-t border-gray-700 space-y-2">
             <p className="text-orange-500 font-bold">
